@@ -1,3 +1,4 @@
+
 import React from 'react';
 import noavatar from './icons/noavatar.png';
 import banner from './icons/banner.png';
@@ -6,6 +7,7 @@ import  './css/App.css';
 import CheckboxSelectComponent from "./CheckboxSelectComponent";
 import ImageUpload from "./ImageUpload";
 import DialogUpdatePhoto from "./DialogUpdatePhoto";
+import {requestCreateEvent} from "../../services/requests";
 
 
 
@@ -15,6 +17,24 @@ const password = "00000000";
 
 
 class Registration extends React.Component {
+
+
+    constructor(props){
+        super(props);
+        this.state={
+            avatar:false
+        }
+    }
+    ChangeAvatar(){
+        this.setState({...this.state, avatar: !this.state.avatar})
+    }
+    async ChangeSubmit(){
+
+        const test = await pictureLink();
+    if(test){
+        this.ChangeAvatar()
+    }
+    }
 
     updateUserProfile = () =>{
         let firstname = this.refs.firstname.value;
@@ -76,6 +96,8 @@ class Registration extends React.Component {
                 console.log(p + " : " + data[p]);}
         });
     };
+
+
 
 
 
@@ -142,8 +164,8 @@ class Registration extends React.Component {
 
                     <div className='div3 col-sm-3'>
                         <div>
-                            <p>Change avatar</p>
-                            <img ref='avatar' src={noavatar} alt="avatar" width="150"/>
+                            <ImageUpload avatar={this.state.avatar} closeavatar={this.ChangeAvatar(this)} submitForm={this.ChangeSubmit.bind(this)}/>
+                       <button onClick={this.ChangeAvatar.bind(this)}><img ref='avatar' src={noavatar} alt="avatar" width="150"/></button>
 
                         </div>
                         <div>
@@ -160,7 +182,7 @@ class Registration extends React.Component {
                         <button id="save_btn" onClick={this.updateUserProfile} className="btn btn-primary">Save</button>
 
                     </div>
-                    <ImageUpload/>
+
                     {/*<DialogUpdatePhoto/>*/}
 
 
