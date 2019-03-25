@@ -30,7 +30,7 @@ class Registration extends React.Component {
     }
     async ChangeSubmit(){
 
-        const test = await pictureLink();
+        const test = await ImageUpload();
     if(test){
         this.ChangeAvatar()
     }
