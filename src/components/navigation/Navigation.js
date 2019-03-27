@@ -1,6 +1,10 @@
 import React from 'react';
 import 'jquery/src/jquery';
 import  './Navigation.css'
+import {NavLink} from "react-router-dom";
+import Registration from "../Registration/Registration";
+import Homepage from "../homepage";
+import Main from "../main/Main";
 
 class Navigation extends React.Component{
     render() {
@@ -18,9 +22,10 @@ class Navigation extends React.Component{
                 </label>
                 <section className="drawer-list">
                     <ul>
-                        <li><a href="#">Sign in</a></li>
-                        <li><a href="#">Calendar</a></li>
-                        <li><a href="#">Add event</a></li>
+                        <li><NavLink to="/">Sign In</NavLink></li>
+                       <li><NavLink to="/Registration">Registration</NavLink></li>
+                        <li><NavLink to="/Homepage">Homepage</NavLink></li>
+                        <li><NavLink to="/Calendar">Calendar</NavLink></li>
 
                     </ul>
                 </section>

@@ -5,23 +5,25 @@ import Main from './components/main/Main';
 import Registration from "./components/Registration/Registration";
 import Calendar from "./components/Registration/Calendar";
 import Navigation from "./components/navigation/Navigation";
-
+import {BrowserRouter, Route} from "react-router-dom";
+import {Switch} from "react-router";
 class App extends Component {
     render() {
         return (
 
-            <div>
-                <div>
-                    <Navigation/>
-                    <Main/>
-                    <Registration/>
-                    <Calendar/>
+            <BrowserRouter>
+               <div>
+                   <Navigation/>
+                   <Switch>
+                       <Route path="/" component={Main} exact/>
+                       <Route path="/Registration" component={Registration}/>
+                       <Route path="/Calendar" component={Calendar}/>
+                       <Route path="/Homepage" component={Homepage} />
 
-                    <Homepage/>
+                   </Switch>
+               </div>
+            </BrowserRouter>
 
-                </div>
-
-            </div>
 
         );
     }
