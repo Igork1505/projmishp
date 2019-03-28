@@ -22,6 +22,8 @@
     transition: width 475ms ease-out, transform 450ms ease, border-radius .8s .1s ease;
     border-bottom-left-radius: 100vw;
     background: linear-gradient(to bottom, rgba(95, 79, 141, 0.58), rgba(255, 238, 217, 0.41))no-repeat;
+    z-index: 1;
+    font-family: Raleway, sans-serif;
 }
 @media (min-width: 768px) {
     .drawer-list {

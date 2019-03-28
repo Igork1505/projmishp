@@ -1,0 +1,18 @@
+.testtab{
+margin: 5em 2em 5em 2em ;
+}
+.ulnav{
+    margin: 5em;
+}
+.cardbody{
+    font-family: Raleway, sans-serif;
+}
+.h4{
+    font-family: Raleway, sans-serif;
+    margin-top: 6px;
+}
+.date{
+    font-family: Raleway, sans-serif;
+    margin-top: 6px;
+    text-align: right;
+}
