@@ -8,6 +8,7 @@ import Navigation from "./components/navigation/Navigation";
 import {BrowserRouter, Route} from "react-router-dom";
 import {Switch} from "react-router";
 import NotificationList from "./components/NotificationList/NotificationList";
+import Events from "./components/Events/Events";
 
 class App extends Component {
     render() {
@@ -15,6 +16,7 @@ class App extends Component {
 
             <BrowserRouter>
                 <div>
+
                     <Navigation/>
                     <Switch>
                         <Route path="/" component={Main} exact/>
@@ -22,7 +24,9 @@ class App extends Component {
                         <Route path="/Calendar" component={Calendar}/>
                         <Route path="/Homepage" component={Homepage}/>
                         <Route path="/NotificationList" component={NotificationList}/>
+
                     </Switch>
+                    {/*<Events/>*/}
                 </div>
             </BrowserRouter>
 

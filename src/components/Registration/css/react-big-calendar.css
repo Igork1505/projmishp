@@ -1,5 +1,5 @@
 .calendar{
-    background: linear-gradient(to top, #41303d, #8373b8);
+    background: linear-gradient(to top, rgba(65, 48, 61, 0.36), rgba(131, 115, 184, 0.39));
     border-radius: 0;
     border: 1px solid white;
     /*margin-top: 1em;*/
@@ -82,10 +82,10 @@ button.rbc-input::-moz-focus-inner {
     min-height: 0;
 }
 .rbc-header.rbc-now > span {
-    color: #4285f4 !important;
+    color: #5f4f8d !important;
 }
 .rbc-header.rbc-now > a > span {
-    color: #4285f4 !important;
+    color: #5f4f8d !important;
 }
 .rbc-header > a,
 .rbc-header > a:active,
@@ -102,7 +102,7 @@ button.rbc-input::-moz-focus-inner {
     z-index: 4;
 }
 .rbc-today {
-    background-color: #f5f5f5;
+    background-color: rgba(245, 245, 245, 0.3);
 }
 .rbc-toolbar {
     display: -webkit-flex;
@@ -131,7 +131,7 @@ button.rbc-input::-moz-focus-inner {
     vertical-align: middle;
     background: none;
     background-image: none;
-    border: 1px solid #ccc;
+    border: 1px solid #e5e4e6;
     padding: .375rem 1rem;
     border-radius: 4px;
     line-height: normal;
@@ -154,12 +154,12 @@ button.rbc-input::-moz-focus-inner {
 }
 .rbc-toolbar button:focus {
     color: #373a3c;
-    background-color: #e6e6e6;
+    background-color: rgba(46, 65, 255, 0);
     border-color: #adadad;
 }
 .rbc-toolbar button:hover {
     color: #373a3c;
-    background-color: #e6e6e6;
+    background-color: rgb(254, 255, 249);
     border-color: #adadad;
 }
 .rbc-btn-group {
@@ -213,7 +213,7 @@ button.rbc-input::-moz-focus-inner {
 .rbc-event {
     cursor: pointer;
     padding: 2px 5px;
-    background-color: #3174ad;
+    background-color: #5f4f8d;
     border-radius: 5px;
     color: #fff;
 }
@@ -288,6 +288,7 @@ button.rbc-input::-moz-focus-inner {
     user-select: none;
     -webkit-user-select: none;
     height: 100%;
+
 }
 .rbc-month-view .rbc-header + .rbc-header {
     border-left: 1px solid #DDD;
@@ -317,6 +318,7 @@ button.rbc-input::-moz-focus-inner {
     flex: 1 0 0;
     overflow: hidden;
     height: 100%;
+
 }
 .rbc-month-row + .rbc-month-row {
     border-top: 1px solid #DDD;
@@ -333,7 +335,7 @@ button.rbc-input::-moz-focus-inner {
 .rbc-date-cell.rbc-now > a,
 .rbc-date-cell.rbc-now > a:active,
 .rbc-date-cell.rbc-now > a:visited {
-    background-color: #4285f4 !important;
+    background-color: #5f4f8d !important;
     color: white !important;
     margin-top: 3px !important;
     padding: 5px !important;
