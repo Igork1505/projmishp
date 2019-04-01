@@ -23,11 +23,12 @@ class Navigation extends React.Component{
                 <section className="drawer-list">
                     <ul>
                         <li><NavLink to="/">Sign In</NavLink></li>
+                        <li><NavLink to="/Events">List of Events in progress</NavLink></li>
                        <li><NavLink to="/Registration">Registration</NavLink></li>
                         <li><NavLink to="/Homepage">Homepage</NavLink></li>
                         <li><NavLink to="/Calendar">Calendar</NavLink></li>
                         <li><NavLink to="/NotificationList">Notification List</NavLink></li>
-                        <li><NavLink to="/Events">Events</NavLink></li>
+
 
                     </ul>
                 </section>
