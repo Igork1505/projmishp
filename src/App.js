@@ -24,15 +24,22 @@ class App extends Component {
                         <Route path="/Calendar" component={Calendar}/>
                         <Route path="/Homepage" component={Homepage}/>
                         <Route path="/NotificationList" component={NotificationList}/>
+                        <Route path="/Events" component={Events}/>
 
                     </Switch>
-                    {/*<Events/>*/}
+
                 </div>
             </BrowserRouter>
 
 
         );
     }
+    isLoginRegisterOpened = (responce) => {
+        this.setState({
+            main: !responce,
+            Events: !responce,
+        });
+    };
 }
 
 export default App;

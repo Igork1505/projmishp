@@ -2,7 +2,8 @@
 body{
     font-family: 'Raleway', sans-serif;
     color: white;
-    background-image: url("../images/4_6012340699796604199.jpg");
+    /*background-image: url("../images/4_6012340699796604199.jpg");*/
+    background: linear-gradient(to bottom, #5F4F8D, #FFEED9)no-repeat;
     background-size: cover;
 
 }

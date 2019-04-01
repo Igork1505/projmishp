@@ -1,18 +1,29 @@
+
 .testtab{
 margin: 5em 2em 5em 2em ;
+
+
 }
 .ulnav{
     margin: 5em;
+
+
 }
 .cardbody{
     font-family: Raleway, sans-serif;
+    background-color: rgba(95, 79, 141, 0.02);
+
 }
 .h4{
     font-family: Raleway, sans-serif;
     margin-top: 6px;
+    cursor: pointer;
+
+
 }
 .date{
     font-family: Raleway, sans-serif;
     margin-top: 6px;
+    cursor: pointer;
     text-align: right;
 }
