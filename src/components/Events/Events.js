@@ -24,7 +24,10 @@ class Events extends React.Component {
                 return response.json();
             })
             .then((data) => {
-                this.setState({event: data, loading: false})
+                let data1 = data.content[0];
+
+                this.setState({event: data1, loading: false});
+
             })
             .catch(function (err) {
                 console.log(err)
@@ -37,13 +40,13 @@ class Events extends React.Component {
         } else {
 
             console.log(this.state.event);
-            if (this.state.event.length>0){
+            // if (this.state.event.length>0){
 
 
 
             return (
                 <div>
-                    <h2>{'eventId:' + this.state.event.content[0].eventId}</h2>
+                    <h2>{'eventId:' + this.state.event.eventId}</h2>
                     <h2>{'title:' + this.state.event.title}</h2>
                     <h2>{'holiday:' + this.state.event.holiday}</h2>
                     <h2>{'confession:' + this.state.event.confession}</h2>
@@ -52,13 +55,15 @@ class Events extends React.Component {
                     <h2>{'duration:' + this.state.event.duration}</h2>
                     <h2>{'address:' + this.state.event.address}</h2>
 
+
                 </div>
-            )  }
-            else{
-                    console.log(this.state.event)
-                return(<h1>NO state</h1>)
-            }
+            )
         }
+        //     else{
+        //             console.log(this.state.event)
+        //         return(<h1>NO state</h1>)
+        //     }
+        // }
     }
 }
 
