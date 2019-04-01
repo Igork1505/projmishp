@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c48a20b0-e7ad-45fa-b3e4-508659ebb7b1" name="Default Changelist" comment="Calendar css (opacity and color)&#10;+Events (fetch)&#10;-bg-image(in commit)&#10;+Notification List (collapse)&#10;+fetch request no">
+    <list default="true" id="c48a20b0-e7ad-45fa-b3e4-508659ebb7b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Events/Events.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Events/Events.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/Navigation.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/navigation/Navigation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="98" />
+            <state relative-caret-position="155">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="97" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -43,18 +41,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/NotificationList/NotificationList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
@@ -136,8 +122,8 @@
         <option value="$PROJECT_DIR$/src/components/NotificationList/NotificationList.css" />
         <option value="$PROJECT_DIR$/src/components/NotificationList/NotificationList.js" />
         <option value="$PROJECT_DIR$/src/components/Events/Events.js" />
-        <option value="$PROJECT_DIR$/src/components/navigation/Navigation.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/navigation/Navigation.js" />
       </list>
     </option>
   </component>
@@ -183,12 +169,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projmishp(полный)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projmishp(полный)" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,7 +271,7 @@
       <workItem from="1553955068841" duration="1703000" />
       <workItem from="1554101446333" duration="5964000" />
       <workItem from="1554110821203" duration="10633000" />
-      <workItem from="1554129054225" duration="3820000" />
+      <workItem from="1554129054225" duration="4362000" />
     </task>
     <task id="LOCAL-00001" summary="+">
       <created>1552331988756</created>
@@ -391,11 +371,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554118489908</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Calendar css (opacity and color)&#10;+Events (fetch)&#10;-bg-image(in commit)&#10;+Notification List (collapse)&#10;+fetch request done:)">
+      <created>1554133383404</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554133383404</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107438000" />
+    <option name="totallyTimeSpent" value="107980000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,7 +450,8 @@
     <MESSAGE value="Notification List from Ariana and +css&#10;Navigation modified" />
     <MESSAGE value="Calendar css (opacity and color)" />
     <MESSAGE value="Calendar css (opacity and color)&#10;+Events (fetch)&#10;-bg-image(in commit)&#10;+Notification List (collapse)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calendar css (opacity and color)&#10;+Events (fetch)&#10;-bg-image(in commit)&#10;+Notification List (collapse)" />
+    <MESSAGE value="Calendar css (opacity and color)&#10;+Events (fetch)&#10;-bg-image(in commit)&#10;+Notification List (collapse)&#10;+fetch request done:)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calendar css (opacity and color)&#10;+Events (fetch)&#10;-bg-image(in commit)&#10;+Notification List (collapse)&#10;+fetch request done:)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -649,16 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/List/List.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/homepage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -733,30 +711,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Events/Events.js">
+    <entry file="file://$PROJECT_DIR$/src/components/NotificationList/NotificationList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/navigation/Navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="98" />
+        <state relative-caret-position="459">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NotificationList/NotificationList.js">
+    <entry file="file://$PROJECT_DIR$/src/components/List/List.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+        <state relative-caret-position="-548">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -769,6 +737,26 @@
           <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Events/Events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/navigation/Navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="97" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
