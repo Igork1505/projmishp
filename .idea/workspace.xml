@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c48a20b0-e7ad-45fa-b3e4-508659ebb7b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Find/FinedEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Find/FinedEvents.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Events/Events.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Events/Events.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/Navigation.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Events/Events.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="366">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -28,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/navigation/Navigation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="97" />
+            <state relative-caret-position="315">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="91" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -41,13 +46,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Find/FinedEvent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Find/FinedEvents.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -58,8 +74,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -121,16 +137,19 @@
         <option value="$PROJECT_DIR$/src/components/Registration/css/App.css" />
         <option value="$PROJECT_DIR$/src/components/NotificationList/NotificationList.css" />
         <option value="$PROJECT_DIR$/src/components/NotificationList/NotificationList.js" />
-        <option value="$PROJECT_DIR$/src/components/Events/Events.js" />
+        <option value="$PROJECT_DIR$/src/components/Events/Find/FinedEvent.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/navigation/Navigation.js" />
+        <option value="$PROJECT_DIR$/src/components/Find/FinedEvent.js" />
+        <option value="$PROJECT_DIR$/src/components/Events/Events.js" />
+        <option value="$PROJECT_DIR$/src/components/Find/FinedEvents.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="702" />
+    <option name="x" value="839" />
     <option name="y" value="7" />
-    <option name="width" value="668" />
+    <option name="width" value="531" />
     <option name="height" value="706" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -144,28 +163,37 @@
         <subPane>
           <expand>
             <path>
-              <item name="projmishp(полный)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projmishp(полный)" type="462c0819:PsiDirectoryNode" />
+              <item name="projmishp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projmishp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projmishp(полный)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projmishp(полный)" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projmishp(полный)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projmishp(полный)" type="462c0819:PsiDirectoryNode" />
+              <item name="projmishp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projmishp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projmishp(полный)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projmishp(полный)" type="462c0819:PsiDirectoryNode" />
+              <item name="projmishp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projmishp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projmishp(полный)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projmishp(полный)" type="462c0819:PsiDirectoryNode" />
+              <item name="projmishp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projmishp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projmishp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projmishp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Find" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projmishp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projmishp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="navigation" type="462c0819:PsiDirectoryNode" />
@@ -194,19 +222,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projmishp\src\components" />
+      <recent name="D:\projmishp(полный)\src\components" />
+      <recent name="D:\projmishpнеудача\src\components\Registration" />
+      <recent name="D:\projmishpнеудача\src\components\Registration\css" />
+      <recent name="D:\projmishp\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\projmishp(полный)\src\components\main" />
       <recent name="D:\projmishp(полный)\src\components\main\Mainimg" />
       <recent name="D:\projmishp\src" />
       <recent name="D:\projmishp\src\components\Registration" />
       <recent name="D:\projmishp\public\footerImg" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\projmishp(полный)\src\components" />
-      <recent name="D:\projmishpнеудача\src\components\Registration" />
-      <recent name="D:\projmishpнеудача\src\components\Registration\css" />
-      <recent name="D:\projmishp\src" />
-      <recent name="D:\projmishp\src\components\List" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -272,6 +300,9 @@
       <workItem from="1554101446333" duration="5964000" />
       <workItem from="1554110821203" duration="10633000" />
       <workItem from="1554129054225" duration="4362000" />
+      <workItem from="1554289543157" duration="3520000" />
+      <workItem from="1554301387636" duration="2324000" />
+      <workItem from="1554306910106" duration="686000" />
     </task>
     <task id="LOCAL-00001" summary="+">
       <created>1552331988756</created>
@@ -382,7 +413,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107980000" />
+    <option name="totallyTimeSpent" value="114510000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,7 +442,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32843137" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.3251634" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49776787" visible="true" weight="0.2009804" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49776787" visible="true" weight="0.34640524" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -464,11 +495,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/img/pexels-photo-173666.jpeg" />
-    <entry file="file://$PROJECT_DIR$/src/components/List.js" />
     <entry file="file://$PROJECT_DIR$/public/logoImg.html" />
     <entry file="file://$PROJECT_DIR$/public/footerImg/vk.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -520,11 +546,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/moment/moment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77615" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/moment/moment.js" />
     <entry file="file://$PROJECT_DIR$/../mshphg/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -731,35 +753,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Events/Events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="366">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/navigation/Navigation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="97" />
+        <state relative-caret-position="315">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="91" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Find/FinedEvent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Find/FinedEvents.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

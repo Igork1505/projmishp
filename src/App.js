@@ -9,6 +9,7 @@ import {BrowserRouter, Route} from "react-router-dom";
 import {Switch} from "react-router";
 import NotificationList from "./components/NotificationList/NotificationList";
 import Events from "./components/Events/Events";
+import FinedEvent from "./components/Find/FinedEvent";
 
 class App extends Component {
     render() {
@@ -24,10 +25,10 @@ class App extends Component {
                         <Route path="/Calendar" component={Calendar}/>
                         <Route path="/Homepage" component={Homepage}/>
                         <Route path="/NotificationList" component={NotificationList}/>
-                        {/*<Route path="/Events" component={Events}/>*/}
+                        <Route path="/Events" component={Events}/>
 
                     </Switch>
-                    <Events/>
+
                 </div>
             </BrowserRouter>
 

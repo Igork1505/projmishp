@@ -1,5 +1,6 @@
 import React from 'react'
 import './Events.css'
+import FinedEvent from "../Find/FinedEvent";
 
 const baseUrl = "https://mishpahug-java221-team-a.herokuapp.com";
 
@@ -7,7 +8,7 @@ class Events extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            event: {},
+            event: [],
             loading: false,
 
         };
@@ -23,8 +24,8 @@ class Events extends React.Component {
             .then(response => {
                 return response.json();
             })
-            .then((data) => {
-                let data1 = data.content[0];
+            .then((event) => {
+                let data1 = event.content;
 
                 this.setState({event: data1, loading: false});
 
@@ -34,36 +35,24 @@ class Events extends React.Component {
             })
     }
 
+
     render() {
+        let event = this.state.event;
         if (this.state.loading) {
             return <h2>loading..</h2>
         } else {
 
-            console.log(this.state.event);
-            // if (this.state.event.length>0){
-
-
-
             return (
                 <div>
-                    <h2>{'eventId:' + this.state.event.eventId}</h2>
-                    <h2>{'title:' + this.state.event.title}</h2>
-                    <h2>{'holiday:' + this.state.event.holiday}</h2>
-                    <h2>{'confession:' + this.state.event.confession}</h2>
-                    <h2>{'date:' + this.state.event.date}</h2>
-                    <h2>{'time:' + this.state.event.time}</h2>
-                    <h2>{'duration:' + this.state.event.duration}</h2>
-                    <h2>{'address:' + this.state.event.address}</h2>
 
-
+                    { event.map((event) => {return(
+                    <FinedEvent event={event}/>
+                    )})}
                 </div>
             )
+
         }
-        //     else{
-        //             console.log(this.state.event)
-        //         return(<h1>NO state</h1>)
-        //     }
-        // }
+
     }
 }
 
